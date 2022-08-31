@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ComposeFragment">
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="100dp"
+        android:ems="10"
+        android:hint="Description"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/PostImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="5dp"
+        tools:srcCompact="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/SumbitB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="150dp"
+        android:visibility="gone"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/ButtonTakePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="150dp"
+        android:text="PICTURE"
+        />
+
+</RelativeLayout>
